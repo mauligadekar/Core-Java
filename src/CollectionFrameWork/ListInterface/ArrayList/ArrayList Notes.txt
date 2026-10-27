@@ -1,0 +1,105 @@
+ArrayList: JDK 1.2
+ArrayList in Java is a dynamic array that allows us to store multiple objects of any class.
+but there is no fixed size limit. present in the java.util
+
+=> An ArrayList is a resizable array that can grow or shrink in the memory whenever needed.
+
+=> Random Access Interface(marker interface):
+ArrayList class implements a random access interface so that we can access any random element
+
+=> Serializable Interface:  It helps in sending the data from one class to another class.
+  Present in java.io package.
+
+=> Cloneable Interface:  present in java.lang package.
+   It is used to create exactly duplicate objects.
+
+Features of ArrayList in Java:
+
+1. Resizable-array:
+ArrayList is a resizable or growable array that means the size of ArrayList can increase or decrease at runtime.
+Once ArrayList is created, we can add any number of elements.
+
+2. Index-based structure: It uses an index-based structure in java.
+
+3. Duplicate elements: Duplicate elements are allowed in the array list.
+
+4. Null elements: Any number of null elements can be added to ArrayList.
+
+5. Insertion order: It maintains the insertion order in Java.
+
+6. Heterogeneous objects:  Heterogeneous means different Data Type of elements.
+
+7. Synchronized: ArrayList is not synchronized. That means multiple threads can use the same ArrayList objects simultaneously.
+
+8. Random Access: ArrayList implements random access because it uses an index-based structure.
+
+9. Performance: In ArrayList, manipulation is slow because if any element is removed from ArrayList, a lot of shifting takes place.
+
+Java ArrayList Constructor:
+
+1) ArrayList al = new ArrayList(); =>  creates an empty ArrayList with a default initial capacity of 10.
+
+Suppose we insert the 11th element at 10th position into an array list, what will happen internally?
+
+Once ArrayList is reached its maximum capacity, the ArrayList class automatically creates a new array with a larger capacity.
+
+New capacity = (current capacity*3/2) + 1 = 10*3/2 + 1 = 16
+
+After creating a new array list with a larger capacity,
+all the existing elements are copied into the new array list and then adds the new element into it.
+
+2) ArrayList al = new ArrayList(int initialCapacity); => If you know the initial capacity, you can directly use this method.
+
+How do we manually increase or decrease current capacity of ArrayList?
+1. ensureCapacity(): This method is used to increase the current capacity of ArrayList.
+
+2. trimTosize(): The trimTosize() method is used to trim the capacity of ArrayList to the current size of ArrayList
+
+Advantage of ArrayList in Java :
+(a) Dynamic size: Unlike arrays, an ArrayList can grow or shrink dynamically.
+
+(b) Type safety: ArrayList provides type-safety means we can only add elements of the same data type.
+
+Disadvantage of ArrayList :
+
+(a) Slow performance: ArrayList can have slow performance when dealing with a large number of elements.
+                      because it needs to resize the array and copy the elements to the new array every time it exceeds its capacity.
+
+(b) Not thread-safe
+
+(c) Not suitable for primitive types
+
+When to Use ArrayList in Java?
+store duplicate and null elements.
+It is more preferred in Java when getting of the element is more. as compared to adding and removing.
+
+how to iterate ArrayList in Java:
+
+Using for loop
+Using Enhanced for loop or Advanced for loop
+Using while Loop
+By using Iterator
+By ListIterator
+Stream API (Java 8)
+
+
+How to Synchronize ArrayList in Java:
+
+What is Synchronization in Java?
+It allows only one thread to access a single resource at a time.
+
+When multiple threads access the same resources at the same time then the program may produce an undesirable output.
+So, this problem can be solved by synchronization.
+The objective of synchronization is to control access to a shared resource.
+
+=> by default ArrayList class is not a thread-safe or non-synchronized
+
+=> it cannot be used in the multi-threading environment without explicit synchronization.
+
+how will we get synchronized ArrayList in Java with thread safety?
+By using Collections.synchronizedList() method
+By using CopyOnWriteArrayList
+
+
+
+

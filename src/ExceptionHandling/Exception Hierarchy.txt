@@ -1,0 +1,112 @@
+java.lang
+    |
+    v
+  Object
+    |
+    v
+  Throwable
+    |
+    +---------------------------+
+    |                           |
+    v                           v
+ Exception                     Error
+    |                           |
+    |                           +---- VirtualMachineError
+    |                           |
+    |                           +---- OutOfMemoryError
+    |                           |
+    |                           +---- StackOverflowError
+    |
+    +---- IOException(checked)
+    |
+    +---- ClassNotFoundException(checked)
+    |
+    +---- SQLException(checked)
+    |
+    +---- RuntimeException (All below Unchecked)
+              |
+              +---- ArithmeticException
+              |
+              +---- NullPointerException
+              |
+              +---- NumberFormatException
+              |
+              +---- IndexOutOfBoundsException
+                          |
+                          +---- ArrayIndexOutOfBoundsException
+                          |
+                          +---- StringIndexOutOfBoundsException
+
+What is Difference Betweeen Exception and Error ?
+Exception are occured by the programmig misticks and they are recoverable.
+Errors are occured due to lack system resource related issues and it is non recoverable.(OutOfMemoryError, StackOverflowError)
+
+1. Throwable class:
+exception classes are derived directly or indirectly. It is the root of all exception classes.
+It is present in java.lang package. having two subclasses: Error and Exception.
+
+2. Error:
+ represents an unusual problem or situation from which it is difficult to recover. It does not occur by programmer mistakes.
+ It generally occurs if the system is not working properly or resource is not allocated properly.
+
+3. Exception:
+represents errors caused by the program and by external factors.
+
+Custom Exceptions:
+=> created by users or programmers according to their own needs.
+=> also called user-defined exceptions that are created by extending the exception class.
+
+================ RuntimeException Class (Unchecked Exceptions) ==================
+
+1. ArithmeticException: when arithmetic problems, such as a number is divided by zero, it is occurred.
+
+2. ClassCastException:  thrown by JVM when we try to perform invalid typecasting in the program.
+
+3. IllegalArgumentException:  when illegal argument is passed to call a method.
+    two subclasses:
+    NumericFormatException:  occurs due to the illegal conversion of a string to a numeric format.
+    IllegalThreadStateException: perform any operation on a thread but it is incompatible with the current thread state.
+
+4. IndexOutOfBoundsException:  when an array or string is going out of the specified index.
+   subclasses:
+   ArrayIndexOutOfBoundsException : array element is accessed out of the index.
+   StringIndexOutOfBoundsException: String or StringBuffer element is accessed out of the index.
+
+5. NullPointerException:  when we try to use null instead of an object. That is, it is thrown when the reference is null.
+
+6. ArrayStoreException:  when we try to store any value in an array which is not of array type.
+
+7. IllegalStateException: when the runtime environment is not in an appropriate state for calling any method.
+
+8. IllegalMonitorStateException: when a thread does not have the right to monitor an object and
+                                 tries to access wait(), notify(), and notifyAll() methods of the object.
+
+9. NegativeArraySizeException: when an array is created with a negative size.
+
+============= List of Checked Exceptions in Java ==================
+Checked exceptions are those exceptions that are checked by the Java compiler itself.
+
+1. ClassNotFoundException:  when we try to use a class that does not exist.
+
+2. FileNotFoundException: when we try to access a non-existing file.
+
+3. InterruptedException: when a thread is in sleeping or waiting state and another thread try to interrupt it.
+
+4. InstantiationException: when we try to create an object of abstract class or interface.
+
+5. IllegalAccessException: when a method is called in another method or class but the calling method or class
+                           does not have permission to access that method.
+
+6. CloneNotSupportedException: Twhen we try to clone an object without implementing the cloneable interface.
+
+7. NoSuchFieldException: when an unknown variable is used in a program.
+
+8. NoSuchMethodException: when the undefined method is used in a program.
+
+
+
+
+
+
+
+
