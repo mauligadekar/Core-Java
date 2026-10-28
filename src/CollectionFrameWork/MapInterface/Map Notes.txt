@@ -1,0 +1,6 @@
+Map Interface:
+=> Key value pairs (key, value)
+=> duplicate key not allowed
+=> constant time search => (O)n
+
+=> NO indexed Based search

@@ -1,0 +1,42 @@
+Finally :
+Finally block is always Executed whether the exception is occured or not.
+use to maintain the clean-up code.
+
+finally block is used to free up resources, cleaning up code, closing DB connection, io stream, etc
+
+Java finally block is used to prevent resource leak.
+the code is put inside the finally block to ensure that the resource is always recovered.
+
+====== Conditions where Finally Block does not execute: ===========
+
+When System.exit() method is invoked before executing finally block. JVM will shutdown here
+When an exception happens in the finally block.
+
+=> System.exit(0) dominate finally block
+=> System.exit(0)
+  0 => neans Normal Termination
+  1 or any number => Abnormal Termination
+
+try{
+open the resource
+read the data
+}
+catch{
+handling code
+}
+finally{
+colse the DB Connection
+}
+
+
+try{
+risky code
+}
+catch{
+handling code
+}
+finally{
+clean-up code
+}
+
+=> finally block get the more priority that the retunr statement

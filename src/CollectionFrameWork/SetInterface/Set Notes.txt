@@ -1,0 +1,47 @@
+Set Interface : 1.2 version
+A collection of elements is not stored in a particular order Such a elements without order is called set in Java.
+
+A set is an unordered collection of unique elements where order is not maintained while storing elements.
+While retrieving we may not get the same order as that we put elements.
+
+Set interface extends java.util.collection interface. The java.util.SortedSet interface extends the Set interface
+
+=> Duplicate are not allowed
+=> Constant time search Operation => (O)n
+=> NO indexed Based search
+
+Java Set interface does not provide any get() method like List to retrieve elements.
+Therefore, the only way to take out elements from the set is using Iterator() method.
+
+Using the Iterator, we can traverse only in the forward direction.
+We cannot traverse backward direction using iterator method.
+
+
+Features:
+It can be iterated by using Iterator but cannot be iterated by using ListIterator.
+
+Tree set does not allow to add null element.
+
+Set is not an indexed-based structure like a list in Java. Therefore, we cannot access elements by their index position.
+
+It does not provide any get method like a list.
+
+=> set =>  duplicate elements not allow
+=> HashSet => do not insertion order maintain
+=> TreeSet => insertion order maintain
+=> LinkedHashSet => elements sorted order
+
+=> Set interface is not thread-safe, and the implementation classes may require synchronization for concurrent access.
+
+we can iterate set Using
+Iteration means repeating the same operation multiple times.
+
+Using Iterator
+Using Enhanced for loop
+Using forEach() from Java 1.8
+With Stream API in Java 8
+
+we cannot add an element to a set at an iterator position. If we try to add an element during iteration,
+JVM will throw an exception ConcurrentModificationException.
+
+We can remove a set element at an iterator position during iteration.

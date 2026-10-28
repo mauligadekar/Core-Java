@@ -1,5 +1,7 @@
 List Interface:
 
+Constant time search Operation => O(n)
+
 A list in Java is a collection for storing elements in sequential order.
 Sequential order means the first element, followed by the second element, followed by the third element, and so on.
 

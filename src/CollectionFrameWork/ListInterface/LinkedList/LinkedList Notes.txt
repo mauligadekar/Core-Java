@@ -1,0 +1,101 @@
+LinkedList:
+➲ LinkedList uses a doubly linked list internally to store a group of elements.
+
+➲ Each node contains three fields: a data field that  stored in the node,
+  left and right fields contain references, point to the previous and next nodes
+
+=> its initial capacity is zero.
+
+       Address of Previous Node             Address of Next Node
+                  \                                  /
+                   v                                v
+             +-------------+---------------+-------------+
+             |  Reference  |   Data Field  |  Reference  |
+             | to Previous |       A       |   to Next   |
+             |    Node     |               |    Node     |
+             +-------------+---------------+-------------+
+
+=> useful in situations where elements are inserted or removed from the middle of the list.
+
+============ Features of LinkedList Class =========
+1. Java LinkedList class allows storing duplicate elements.
+
+2. Null elements can be added to the linked list.
+
+3. Java LinkedList is not synchronized. So, multiple threads can access the same LinkedList object at the same time.
+
+4. Insertion and removal of elements in the LinkedList are fast because, in the linked list,
+   there is no shifting of elements after each adding and removal. The only reference for next and previous elements changed.
+
+5. LinkedList is the best choice when frequently insertion and deletion in the middle.
+
+6. Retrieval (getting) of elements is very slow in LinkedList because it
+   traverses from the beginning and ending to reach the element.
+
+7. Java LinkedList does not implement random access interface.
+
+8.  We can iterate linked list elements by using ListIterator.
+
+How does Insertion Work in LinkedList? linkedlist.add(2,"G");
+
+                               index 2
+                          ┌──────┬─────┬──────┐
+                          │      │  G  │      │
+                          └──────┴─────┴──────┘
+                               Third Node
+                             ▲           │
+                             │           │
+                             │           ▼
+
+       index 0                 index 1                 index 3                 index 4
+      ┌──────┬─────┬──────┐  ┌──────┬─────┬──────┐  ┌──────┬─────┬──────┐  ┌──────┬─────┬──────┐
+      │ null │  A  │      │◄►│      │  B  │      │◄►│      │  C  │      │◄►│      │  D  │ null │
+      └──────┴─────┴──────┘  └──────┴─────┴──────┘  └──────┴─────┴──────┘  └──────┴─────┴──────┘
+         First Node              Second Node             Fourth Node              Last Node
+
+When the insertion operation takes place in the linked list, internally,
+LinkedList will create one node with G element at anywhere available space in the memory and
+changes the next and previous pointer only without shifting of any element in the list
+
+What about Deletion: consider B
+When deletion operation takes place, the node with element B is deleted with changing the next and previous pointer.
+
+=========== Best Case Scenario to Use LinkedList in Java Application ==========
+
+Suppose there are 100 elements in the ArrayList. If we remove the 50th element from the ArrayList,
+51st element will go to 50th position, 52nd element to 51st position,
+and similarly for other elements consume a lot of time for shifting.
+Due to which the manipulation will be slow in ArrayList.
+
+But in the case of linked list, if we remove 50th element from the linked list,
+no shifting of elements will take place after removal. Only the reference of the next and previous node will change.
+
+============ Worst Case Scenario to Use LinkedList in Java ========
+retrieval (getting) of elements from the linked list because retrieval of elements is very slow
+
+Suppose that LinkedList accesses the first element in one second from the list.
+Since the address of second element is available in the first node.
+So, it will take two seconds time to access second element.
+
+Similarly, if we want to get 9th element from the list then LinkedList will take 9 sec time to get element. Why?
+because the address of 9th element is available in 8th node.
+The address of 8th node is available in 7th node and so on.
+
+But if there are one crore elements in the list and we want to get 50th lakh element from the list,
+may be linked list will take one year time to access and getting 50th lakh element.
+
+Therefore, LinkedList is the worst choice for the retrieval or searching of elements from the linked list.
+
+Key Point:
+Use an Iterator or ListIterator for efficient traversal of the list.
+
+Avoid using a for loop or while loop to iterate over a LinkedList
+because it is less efficient than using an Iterator or ListIterator.
+
+Use a for-each loop if you do not need access to the index of the current element.
+
+Use the remove() method of the Iterator or ListIterator to remove elements during the iteration.
+
+Avoid modifying the LinkedList during iteration because it can cause a ConcurrentModificationException.
+
+

@@ -53,7 +53,7 @@ all the existing elements are copied into the new array list and then adds the n
 How do we manually increase or decrease current capacity of ArrayList?
 1. ensureCapacity(): This method is used to increase the current capacity of ArrayList.
 
-2. trimTosize(): The trimTosize() method is used to trim the capacity of ArrayList to the current size of ArrayList
+2. trimTosize(): The trimTosize() method is used to trim the capacity of ArrayList. empty position will trimed
 
 Advantage of ArrayList in Java :
 (a) Dynamic size: Unlike arrays, an ArrayList can grow or shrink dynamically.
@@ -101,5 +101,6 @@ By using Collections.synchronizedList() method
 By using CopyOnWriteArrayList
 
 
+If you want to store primitive data types in ArrayList, use wrapper classes such as Integer, Double, or Character.
 
 
