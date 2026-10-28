@@ -1,0 +1,67 @@
+Checked Exceptions in Java:
+The exceptions that are checked by Java compiler at compilation time are called checked exceptions in Java.
+All the exceptions except RuntimeException, Error, and their subclasses are checked exceptions.
+
+We must handle checked exceptions by using try catch block and throws clause.
+If not handles properly, it will give a compile-time error.
+
+Compile-time errors are not exceptions. They come under errors. In Java, only runtime errors come under exceptions.
+
+========== List of Checked Exceptions in Java: ===========
+
+ClassNotFoundException
+InterruptedException
+InstantiationException
+IOException
+SQLException
+IllegalAccessException
+FileNotFoundException, etc
+
+Unchecked Exceptions (Runtime Exceptions) in Java:
+
+Unchecked exceptions in Java are those exceptions that are checked by JVM and comes under the runtime exception.
+
+Java compiler does not check runtime exception at compile time whether programmer handles them or not.
+
+If a runtime exception occurs in a method and the programmer does not handle it,
+JVM terminates the program without the execution of rest of the code.
+
+=========== List of Unchecked Exceptions in Java: ==========
+
+ArithmeticException
+ClassCastException
+NullPointerException
+ArrayIndexOutOfBoundsException
+NegativeArraySizeException
+ArrayStoreException
+IllegalThreadStateException
+SecurityException, etc.
+
+Difference between Checked and Unchecked Exceptions in Java:
+
+1. The classes that directly inherit Throwable class are called checked exceptions
+   whereas, classes that directly inherit RuntimeException are called unchecked exceptions.
+
+2. Checked exceptions are checked and handled at compile-time whereas,
+   unchecked exceptions are not checked and handled at compile time. They are checked at runtime.
+
+3. Examples of checked exceptions are IOException, SQLException, ClassNotFoundException, etc whereas,
+   unchecked exceptions are ArithmeticException, ClassCastException, NullPointerException, IllegalArgumentException, etc.
+
+
+4.Checked exceptions in Java extend Exception class, whereas unchecked exceptions extend RuntimeException class.
+
+5. A checked exception happens when there is a chance of a higher failure rate.
+   whereas unchecked exceptions occur, mostly due to programming mistakes/errors.
+
+
+Fully Checked Exceptions in Java:
+A checked exception is fully checked if and only if all of its sub-classes are also checked exceptions.
+
+IOException is a fully checked exception because all its subclasses,
+such as FileNotFoundException and EOFException, are also checked exceptions.
+
+Partially Checked Exceptions in Java:
+
+ A checked exception is partially checked if and only if some of its sub-classes are unchecked exceptions.
+ Examples: Exception and Throwable

@@ -1,0 +1,133 @@
+Iterator:
+Iterators in Java are used to retrieve the elements one by one from a collection object.
+
+realtime example.
+
+Suppose that there are 20 apples in a box. If I ask you how will you eat all these 20 apples?
+one by one, or all apples at once time. I hope that your answer will be definitely one by one.
+That is, you will eat the first apple. After that, you will eat the second apple, and so on.
+assume that box is a collection, and apples in the box are elements of the collection
+
+========== Types of Iterators in Java : ===========
+Enumeration(1.0)
+Iterator  (1.2)
+ListIterator(1.2)
+Spilterator (1.8)
+
+Limitation of Enumeration:
+applicable for only legacy class. Hence, it is not a universal cursor.
+We can get only read operation but We cannot perform the remove operation.
+iterate using enumeration only in the forward direction.
+
+Iterable Interface in Java:
+Collection interface extends Iterable interface. present in java.lang.Iterable package.
+way to retrieve the elements one by one from a collection object.
+provides just one method named iterator() which returns an instance of Iterator
+Ex.  Iterator<Integer> itr = c.iterator();
+
+=============== Iterator Methods in Java: =============
+1. public boolean hasNext():
+
+return true if the iteration has more elements to traverse (iterate) in the forward direction.
+false if all the elements have been iterated.
+
+2. public Object next():
+
+return next element in the collection. It will throw NoSuchElementException when the iteration is complete.
+
+3. public void remove():
+
+removes the last or the most recent element returned by the iterator.
+it must be called after calling the next() method otherwise it will throw IllegalStateException.
+
+
+
+============= How Java Iterator Works Internally? ===============
+
+Mauli       Rahul       Amit
+
+Index 0     Index 1     Index 2
+
+
+1. When hasNext() method is called on this Iterator, it returns true because elements are present in the forward direction.
+   With the call to the next() method, it returns an element from the collection. sets the Iterator object to the next element
+
+2. Again hasNext() method will be called to check that elements are present for iteration. if present  it will return true.
+   On call of next() method, it will return the next element from the collection
+
+3. Calling of hasNext() and next() method will be continued until the pointer moves to the last element.
+
+5. When the pointer reached the last element of the ArrayList then the call to the hasNext() method will return false
+   and the call to next() method will give an exception named NullPointerException.
+
+============ Difference between Enumeration and Iterator: ==============
+
+using an enumeration, we can perform only read access operation
+but using an iterator, we can perform both read and remove operation.
+
+============== Advantage of Iterator in Java ==============
+
+An iterator can be used with any collection classes.
+We can perform both read and remove operations.
+It acts as a universal cursor for collection API.
+
+Limitation of Iterator in Java:
+we can move only towards forwarding direction. We cannot move in the backward direction.
+We can perform either read operation or remove operation.
+We cannot perform the replacement of new objects.
+
+To overcome the above drawbacks, we should use the ListIterator concept.
+
+=============== ListIterator in Java : ================
+
+used to retrieve elements from a collection object in both forward and reverse directions. it is bi-directional cursor.
+we can perform different kinds of operations such as read, remove, replacement (current object).
+
+ ListIterator<String> litr = l.listIterator();
+
+ ================= Methods of ListIterator in Java ==============
+
+Forward direction:
+ 1. public boolean hasNext():
+ 2. public Object next():
+ 3. public int nextIndex(): This method returns the index of the next element in the list.
+
+ Backward direction:
+ 4. public boolean hasPrevious(): It checks that list has more elements in the backward direction.
+                                  If the list has more elements, it will return true.
+
+ 5. public Object previous(): It returns the previous element in the list and moves the cursor position backward direction.
+
+ 6. public int previousIndex(): It returns the index of the previous element in the list.
+
+ Other capability methods:
+ 7. public void remove(): This method removes the last element returned by next() or previous() from the list.
+
+ 8. public void set(Object o): This method replaces the last element returned by next() or previous() with the new element.
+
+ 9. public void add(Object o): This method is used to insert a new element in the list.
+
+Advantages of ListIterator in Java:
+
+supports many operations such as read, remove, replacement, and the addition of new objects.
+Using the List Iterator, we can perform Iteration in both forward and backward directions.
+
+
+Difference between Iterator and ListIterator:
+1. Java Iterator is applicable to the whole Collection API.
+   Java ListIterator is only applicable for List implemented classes
+
+2. Iterator supports only forward direction Iteration.
+   ListIterator supports both forward and backward direction iterations.
+
+3. It is known as a uni-directional iterator.
+   It is also known as bi-directional iterator.
+
+4. Iterator supports only read and delete operations.
+   ListIterator supports all the operations such as read, remove, replacement, and the addition of the new elements.
+
+5. We can get the Iterator object by calling iterator() method.
+   We can create ListIterator object by calling listIterator() method.
+
+
+

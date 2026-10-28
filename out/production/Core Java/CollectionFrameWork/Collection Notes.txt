@@ -1,0 +1,40 @@
+
+Difference between Arrays & Collections in Java :
+
+Arrays are fixed in size but collections are growable in nature. We can increase or decrease size.
+
+Arrays are not recommended to use with respect to memory => due to fixed sizing and potential memory wastage,
+collections are recommended to use with respect to memory. => grow and shrink automatically as elements are added or removed.
+
+Arrays are recommended to use with respect to performance => Less Overhead Directly stores primitive values and accesses them by index.
+Overhead: The extra memory or work needed to manage that data.
+
+collections are not recommended to use with respect to performance. => May need additional work, such as managing capacity,
+                                                                       resizing, or handling wrapper objects.
+
+Arrays can store only homogeneous data elements (similar type of data)
+but collections can hold both homogeneous and heterogeneous elements.
+
+Arrays do not support any method but collections support various kinds of methods.
+
+Arrays can have both hold primitives and object types but collections can hold only objects but not primitive.
+
+
+What is Collection:
+
+The Java Collection Framework is a set of interfaces, classes, and methods that helps us store and manage groups of objects.
+
+1. In childhood, you had a kiddy bank. In the kiddy bank, you had collected a lot of coins.
+   This kiddy bank is called collection and the coins are nothing but objects.
+
+1. Homogeneous objects: group of multiple objects that belong to the same class.
+
+2. Heterogeneous objects: group of different objects that belong to different classes
+
+
+Advantage of Collections Framework in Java
+
+=> reduces the development time and the burden of designers, programmers, and users.
+=> it provides useful data structure and interfaces which reduce programming efforts.
+=> The size of the container is growable in nature.
+

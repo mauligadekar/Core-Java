@@ -1,0 +1,23 @@
+When statements inside the single try block generate multiple exceptions,
+we require multiple catch blocks to handle different types of exceptions. This mechanism is called multi-catch block in Java.
+
+=> Followed Top to Bottom Approach
+  Chile to Parent
+
+  try{
+ sout( 10/0);
+  }
+  catch{ (ArithmatiException e)
+  }
+  catch{
+  Exception ae;
+    }
+=> if Arithmatic exception is there first catch block will take care
+=> other that Arithmatic exception is there the Excepiton will take care
+
+What is Pipe(|) Operator:
+the pipe operator (|) is used in a single catch block to handle multiple exception types Introduced in Java 7.
+
+Key Rules and Characteristics:
+=> Reduces Code Duplication
+=> No Parent-Child Relationship:

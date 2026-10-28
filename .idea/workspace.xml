@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a314a63-3ce3-4344-9072-7d150deafdb6" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/Collection Hierarchy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/Collection Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/ArrayList Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/ArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/ArrayListMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/CopyOnWriteArrayListClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/SynchronizedArraylist1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/WaysToIterateArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/Iterator.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/IteratorExample_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/IteratorExample_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/IteratorExample_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/ListIteratorExample_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/ListIteratorExample_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/ListItertatorExample_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/listIteratorExample_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/LinkedList/LinkedList Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/List Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ListInterfaceMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Vector/Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/MapInterface/Map Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/SetInterface/Set Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/NestedTryCatch4/Nested TryCatch Notes.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mauligadekar&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mauligadekar/Core-Java&quot;,
+    &quot;accountId&quot;: &quot;3f685b96-63e1-4107-a470-057f3e8d89cb&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0" />
+      <entry key="M10" value="1.0000000014698696" />
+      <entry key="M15" value="1.0000015979786843" />
+      <entry key="M30" value="1.0018568988316405" />
+      <entry key="H1" value="1.0884352772036618" />
+      <entry key="H2" value="1.9151242102586976" />
+      <entry key="H4" value="4.4223720327249225" />
+      <entry key="D1" value="12.010098418219526" />
+      <entry key="W1" value="14.526004681971413" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.31864015682981556" />
+      <entry key="MS500" value="0.7955364837549187" />
+      <entry key="S2" value="0.9444196733550677" />
+      <entry key="S5" value="0.977385775946598" />
+      <entry key="S10" value="0.9887258759500084" />
+      <entry key="S30" value="1.0422445768091926" />
+      <entry key="S60" value="1.2126874329665263" />
+      <entry key="M2" value="1.4622878888721034" />
+      <entry key="M5" value="1.734678542149088" />
+      <entry key="M10" value="1.8571656385968007" />
+      <entry key="M15" value="1.9023700374725339" />
+      <entry key="M30" value="1.9651073453334675" />
+      <entry key="H1" value="2.9351593761664363" />
+      <entry key="H2" value="12.945657205292365" />
+      <entry key="H4" value="43.34443636995636" />
+      <entry key="D1" value="133.75862149397105" />
+      <entry key="W1" value="163.42359571594807" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.31864015682984265" />
+      <entry key="MS500" value="0.797470747176663" />
+      <entry key="S2" value="1.1541343884537434" />
+      <entry key="S5" value="1.5127527286838576" />
+      <entry key="S10" value="1.7203965615046526" />
+      <entry key="S30" value="1.9404944158340558" />
+      <entry key="S60" value="2.1551944967698002" />
+      <entry key="M2" value="2.4292374491403046" />
+      <entry key="M5" value="2.719629789354959" />
+      <entry key="M10" value="2.849233300665937" />
+      <entry key="M15" value="2.896983248059802" />
+      <entry key="M30" value="2.964212463315958" />
+      <entry key="H1" value="4.022041336749884" />
+      <entry key="H2" value="14.859031989868438" />
+      <entry key="H4" value="47.76434831615379" />
+      <entry key="D1" value="145.76748241519368" />
+      <entry key="W1" value="177.94938392354928" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Ku3u5px7q2bIhfzMSrSKyAvTF7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayListExample.executor": "Run",
+    "Application.ArrayListMethods.executor": "Run",
+    "Application.CheckedException_1.executor": "Run",
+    "Application.CopyOnWriteArrayListClass.executor": "Run",
+    "Application.IteratorExample.executor": "Run",
+    "Application.IteratorExample_2.executor": "Run",
+    "Application.IteratorExample_3.executor": "Run",
+    "Application.ListInterfaceMethods.executor": "Run",
+    "Application.ListIteratorExample_3.executor": "Run",
+    "Application.ListIteratorExample_4.executor": "Run",
+    "Application.ListItertatorExample_1.executor": "Run",
+    "Application.MethodsPrintExceoptionInfo_1.executor": "Run",
+    "Application.MultiCatchExample_1.executor": "Run",
+    "Application.MultiCatchExample_2.executor": "Run",
+    "Application.NestedExample_2.executor": "Run",
+    "Application.NestedTryExample_1.executor": "Run",
+    "Application.SynchronizedArraylist.executor": "Run",
+    "Application.TryCatchBlockExample_1.executor": "Run",
+    "Application.TryCatchExample_2.executor": "Run",
+    "Application.TryCatchExample_3.executor": "Run",
+    "Application.TrycatchExample_4.executor": "Run",
+    "Application.TrycatchExample_5.executor": "Run",
+    "Application.TrycatchExample_6.executor": "Run",
+    "Application.TrycatchExample_7.executor": "Run",
+    "Application.UncheckedExceprion_1.executor": "Run",
+    "Application.UncheckedExceprion_2.executor": "Run",
+    "Application.UsingPipeOperator_1.executor": "Run",
+    "Application.UsingStackTraceMethod_1.executor": "Run",
+    "Application.WaysToIterateArrayList.executor": "Run",
+    "Application.listIteratorExample_2.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Backend DevelopMent/Core Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ArrayListExample">
+    <configuration name="MethodsPrintExceoptionInfo_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.TryCatchBlock2.MethodsPrintExceoptionInfo_1" />
+      <module name="Core Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExceptionHandling.TryCatchBlock2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiCatchExample_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.MultipleCatchBlock3.MultiCatchExample_2" />
+      <module name="Core Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExceptionHandling.MultipleCatchBlock3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NestedTryExample_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.NestedTryCatch4.NestedTryExample_1" />
+      <module name="Core Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExceptionHandling.NestedTryCatch4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsingPipeOperator_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.MultipleCatchBlock3.UsingPipeOperator_1" />
+      <module name="Core Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExceptionHandling.MultipleCatchBlock3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <module name="" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <module name="" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ArrayListExample" />
+      <item itemvalue="Application.MethodsPrintExceoptionInfo_1" />
+      <item itemvalue="Application.MultiCatchExample_2" />
+      <item itemvalue="Application.NestedTryExample_1" />
+      <item itemvalue="Application.UsingPipeOperator_1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NestedTryExample_1" />
+        <item itemvalue="Application.MethodsPrintExceoptionInfo_1" />
+        <item itemvalue="Application.UsingPipeOperator_1" />
+        <item itemvalue="Application.MultiCatchExample_2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a314a63-3ce3-4344-9072-7d150deafdb6" name="Changes" comment="" />
+      <created>1792393845598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792393845598</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
