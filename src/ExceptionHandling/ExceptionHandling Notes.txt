@@ -1,0 +1,97 @@
+What is Exception Handling:
+unwanted and unexpected event that disturb the normal execution flow of the program is called exception in Java.
+
+=> It is thrown from a method.
+=> The caller of the method can catch and handle the exception.
+=> An exception can be identified only at runtime, not at compile time.
+
+1. Suppose you are watching a video on Youtube, suddenly, internet connectivity is disconnected or not working.
+   In this case, you are not able to continue watching the video on Youtube.
+   This interruption is nothing but an exception.
+
+Why Does Exception Occur in Program?
+
+=> Opening a non-existing file in your program.
+=> user enters invalid data.
+=> try to divide an integer value by zero, an exception occurs.
+
+
+What Exception Handling:
+If we want to continue the execution of remaining code in the program,
+we have to handle exception and then display a user-friendly message on console.
+
+What is Exception Handler in Java?
+The code that catches the exception thrown by JVM is called exception handler in Java.
+It is responsible for receiving information about the exception/error.
+
+How Does Exception Handling Mechanism Work?
+
+Unexpected error/event occurs => An exception is thrown   => JVM searches for an handler
+                                                                      |
+                                                               Is an exception handler found?
+                                                                |             \
+                                                                         Yes             \ No
+                                                                          |               \
+                                                                          v                v
+                                                               +----------------------+  +----------------------------------+
+                                                               | Exception is handled |  | Exception is handled by default |
+                                                               | by exception handler |  | exception handler that displays |
+                                                               +----------------------+  | exception name, message and     |
+                                                                          |              | stack trace, terminates the      |
+                                                               +----------------------+  | execution of whole program      |
+                                                               | Exit the program     |  | abnormally.                     |
+                                                               +----------------------+  +----------------------------------+
+
+
+ Default Exception handling:
+ Java method call stack/ Runtime time stack:
+
+ public static void main(String[] args)
+ {
+   m1(); // main() method calling m1().
+ }
+ public static void m1()
+ {
+   m2(); // m1() method calling m2().
+ }
+ public static void m2()
+ {
+   m3(); // m2() method calling m3().
+ }
+ public static void m3()
+ {
+   System.out.println(1/0); // Exceptio
+
+  }
+
+  Main Method is a rrsponsible to call the main thread
+
+  1.the main() method is calling m1(). So, JVM will add one entry for m1() method in the call stack.
+    The control of execution is transferred to the m1() method.
+
+  2.Similarly, the m1() method is calling the m2() method. Again, JVM will add one entry for m2() method in the method call stack.
+    The control of execution will be transferred to m2() method.
+
+  3.The method m2() is calling m3() method. JVM will add one entry for m3().
+    control of execution will be transferred to method m3().
+
+  4.Inside the m3() method, an exception has occurred, so the m3() method will create an exception object
+    and hands over it to JVM. Now, JVM checks the exception handling code is there or not.
+
+ there is no error handling code, so JVM immediately, terminates this method abnormally without execution of its remaining code
+
+ m3() will be removed form the call stack stack.
+ then jvm check hwo is calling m3() so m2() is calling the check m2() have handling code if not the m2() will be removed
+ like that m1 and main method also removed from call stack.
+
+ Advantage of Exception Handling :
+ maintain the normal flow of the program.
+ define a user-friendly message to handle the exception.
+ helps to separate “error-handling code” from “regular code”.
+
+
+
+
+
+
+

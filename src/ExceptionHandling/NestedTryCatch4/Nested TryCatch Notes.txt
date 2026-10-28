@@ -26,4 +26,11 @@ catch(Exception2 e2) // Outer catch block
 
 Case 1: if a Exception is occured in a outer try block then control of execution it transferred to the outer catch block.
 
-Case 2: If No exception Occured inside the outer try blcok 
+Case 2: If No exception Occured inside the outer try blcok then control goes to inner try block ,
+        if exception occured insithe innner try block the catch block associated with search form proper match.
+        If no match is found, the control of execution is transferred to the next outer try-catch block
+        to handle the exception of inner try block. This process continues until and unless an appropriate match is found.
+
+        If no match is found, then handle the Exception program terminates abnormally.
+
+Case 3: If both try blocks do not throw any exception, both catch blocks are skipped naturally and the execution continues

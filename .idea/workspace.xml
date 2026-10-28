@@ -5,29 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a314a63-3ce3-4344-9072-7d150deafdb6" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/Collection Hierarchy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/Collection Notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/ArrayList Notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/ArrayListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/ArrayListMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/CopyOnWriteArrayListClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/SynchronizedArraylist1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/WaysToIterateArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/Iterator.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/IteratorExample_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/IteratorExample_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/IteratorExample_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/ListIteratorExample_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/ListIteratorExample_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/ListItertatorExample_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Iterator/listIteratorExample_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/LinkedList/LinkedList Notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/List Notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ListInterfaceMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Vector/Notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/MapInterface/Map Notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/SetInterface/Set Notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/NestedTryCatch4/Nested TryCatch Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/CheckedAndUnchecked1/Checked Unchecked Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/CheckedAndUnchecked1/CheckedException_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/CheckedAndUnchecked1/UncheckedExceprion_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/CheckedAndUnchecked1/UncheckedExceprion_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Exception Hierarchy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/ExceptionHandling Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Finally5/Finally Noes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/MultipleCatchBlock3/Multi catch Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/MultipleCatchBlock3/MultiCatchExample_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/MultipleCatchBlock3/MultiCatchExample_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/MultipleCatchBlock3/UsingPipeOperator_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/NestedTryCatch4/NestedExample_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/NestedTryCatch4/NestedTryExample_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/TryCatchBlock2/MethodsPrintExceoptionInfo_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/TryCatchBlock2/Try Catch Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/TryCatchBlock2/TryCatchExample_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/TryCatchBlock2/TryCatchExample_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/TryCatchBlock2/TryCatchExample_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/TryCatchBlock2/TrycatchExample_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/TryCatchBlock2/TrycatchExample_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/TryCatchBlock2/TrycatchExample_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/TryCatchBlock2/TrycatchExample_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/ArrayListExample.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionHandling/NestedTryCatch4/Nested TryCatch Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionHandling/NestedTryCatch4/Nested TryCatch Notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +145,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.ArrayListExample.executor": "Run",
     "Application.ArrayListMethods.executor": "Run",
     "Application.CheckedException_1.executor": "Run",
@@ -193,7 +201,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayListExample">
+  <component name="RunManager" selected="Application.MethodsPrintExceoptionInfo_1">
     <configuration name="MethodsPrintExceoptionInfo_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionHandling.TryCatchBlock2.MethodsPrintExceoptionInfo_1" />
       <module name="Core Java" />
@@ -314,7 +322,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayListExample" />
       <item itemvalue="Application.MethodsPrintExceoptionInfo_1" />
       <item itemvalue="Application.MultiCatchExample_2" />
       <item itemvalue="Application.NestedTryExample_1" />

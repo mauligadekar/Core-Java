@@ -1,0 +1,79 @@
+Five keywords to Handle Exception in Java:
+try => Risky code we can write , the code which genereate the exception
+catch =>  exception handler block.
+finally
+throw
+throws
+
+Rules for Using Try-Catch Block in Java
+
+=> Java try-catch block must be within a method.
+=> A try block can not be used without a catch or finally block.
+   must follow at least one catch block otherwise, the compilation error will occur.
+
+=> A catch block must be followed by try block.
+   There should not be any statement between try and catch Block
+
+=> A finally block cannot come before catch block.
+
+======== Control Flow of Try Catch Block =============
+try
+{
+  statement 1;
+  statement 2;
+  statement 3;
+}
+catch(exception_class var)
+{
+  statement 4;
+}
+statement 5;
+
+Case 1 : If there is no exception 1,2,3,5, will be executed Noraml Termination
+         catch block(4) will executed.it execute when exception occured in try block.
+
+Case 2 : If the Exception occcured at statement 2 and corresponding catch block matched
+         1,4,5 Noraml Termination(NT)
+
+Case 3 : If the Exception occcured at statement 2 and corresponding catch block Not matched
+         1, Abnormal Termination
+
+Case: 4 If a Exception occcured at statement 4 or statement 5
+        Exception occured outside the try block it is always Abnormal termination.
+        AT
+
+========== Key Points to Remember: ==========
+
+=> An exception can be handled using try, catch, and finally blocks.
+
+=> We can handle multiple exceptions using multiple catch blocks.
+
+=> There can be a possibility for several exceptions inside the try block but at a time only one exception will be raised.
+
+=> A single try block in Java can be followed by several catch blocks.
+
+=> A catch block cannot be without try block but a try block can have without catch block.
+
+=> We cannot write any statement between try and catch blocks.
+
+=> We can also write a try block within another try block that is called nested try blocks.
+
+================ Method To Print Exception Information On the console ================
+3 Ways :
+Available inside the Throwable class
+
+1. e.printStackTrace() => Name Of Exception : Description ofd Exception followed by the StackTrace
+
+Ex. java.lang.ArithmeticException: / by zero
+	at ExceptionHandling.TryCatchBlock2.MethodsPrintExceoptionInfo_1.main(UsingStackTraceMethod_1.java:7)
+
+2.sout(e.toString(); => Exception : Description of Exception the use this
+
+ Ex. java.lang.ArithmeticException: / by zero
+
+
+3. sout( e.getMessage()); => if we want only Description of Exception the use this method
+
+ Ex.  / by zero
+
+
