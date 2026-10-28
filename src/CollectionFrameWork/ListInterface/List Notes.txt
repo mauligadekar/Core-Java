@@ -1,0 +1,42 @@
+List Interface:
+
+A list in Java is a collection for storing elements in sequential order.
+Sequential order means the first element, followed by the second element, followed by the third element, and so on.
+
+1. List<data type> list = new ArrayList<data type>(); // General syntax.
+
+public interface List<E> extends Collection<E>
+
+=> available in java.util package
+
+Features of Java List Interface :
+
+1. The list allows storing duplicate elements in Java.
+
+2. In the list, we can add an element at any position.
+
+3. It maintains insertion order. i.e. List can preserve the insertion order by using the index.
+
+4. It allows for storing many null elements.
+
+5. Java list uses a resizable array for its implementation. Resizable means we can increase or decrease the size of the array.
+
+6. Except for LinkedList, ArrayList, and Vector is an indexed-based structure.
+
+7. It provides a special Iterator called a ListIterator that allows accessing the elements in the forward direction using
+   hasNext() and next() methods.
+   In the reverse direction, it accesses elements using hasPrevious() and previous() methods.
+
+Java List Initialization:
+=> Using Arrays.asList
+=> Using Normal way
+=> Using Anonymous Inner class
+
+
+When to Use List?
+
+=> when we want to store duplicate elements and null elements.
+=> When we want to preserve insertion order, we should go for list.
+
+ArrayList provides fast indexed access, but inserting or removing elements at the beginning can require shifting elements.
+

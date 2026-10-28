@@ -1,0 +1,160 @@
+              Collection Framework Hierarchy
+                                        Iterable (I)
+                                            ▲
+                                            |
+                                        Collection (I)
+                                            ▲
+                                            |
+                            +---------------+---------------+
+                            |               |               |
+                            ▲               ▲               ▲
+                         List (I)        Queue (I)        Set (I)
+                            ▲               ▲               ▲
+                      +-----+-----+         |          +----+----------+
+                      |     |     |         |          |               |
+                      |     |     |         |          |               |
+                  ArrayList |  Vector   PriorityQueue  HashSet    SortedSet (I)
+                            |     ▲                       |               ▲
+                            |     |                       |               |
+                            |   Stack               LinkedHashSet    TreeSet
+                            |
+                        LinkedList
+                            ▲
+                            |
+                        Deque (I)
+                            ▲
+                            |
+                       ArrayDeque
+
+
+Collection Interface:
+=>  root interface of the Java Collections Framework
+=>  extends the Iterable interface.
+=> The Iterable interface contains only one method, called iterator().
+=> Using this iterator, we can traverse (iterate) the elements of a collection one by one.
+
+List Interface:
+=> represents an ordered collection of elements whose elements are arranged sequentially ordered.
+=> List maintains an order meaning that the order in which we add elements,
+   same sequence we will get while retrieving elements.
+=> can insert, access, or remove elements from any location (index).
+=> subclasses:
+ArrayList
+LinkedList
+Vector
+
+Set Interface:
+=> This interface is used to store the collection of unique elements.
+=> Set does not maintain any order while storing elements. While retrieving, the order of elements may differ.
+=> does not allow any duplicate elements
+subclasses: HashSet
+            LinkedHashSet
+            TreeSet
+
+SortedSet Interface:
+extends the Set interface and maintains its elements in ascending (natural) order
+TreeSet class implements the SortedSet interface and automatically sorts its elements in natural order.
+
+Queue Interface:
+(First-In, First-Out) principle.
+commom subclass
+PriorityQueue
+ArrayDeque
+
+Deque Interface:
+
+A Deque (Double-Ended Queue) is a sub-interface of Queue interface. It is usually pronounced “deck”.
+added to the Collections Framework in Java SE 6.
+allows elements to be inserted and removed from both ends (front and rear).
+extends the Queue interface and provides additional methods to support insertion, removal,
+and retrieval of elements from both ends.
+
+subclass:
+LinkedList
+ArrayDeque
+
+Map Interface:
+=> The Map interface is not inherited by the Collection interface.
+=> It represents an object that stores and retrieves elements in the form of a Key/Value pairs,
+   where each key is unique
+=> Map uses a hashing technique for storing key-value pairs efficiently.
+=> It doesn’t allow to store the duplicate keys, but duplicate values are allowed.
+Common concrete subclasses :
+HashMap
+Hashtable
+LinkedHashMap
+TreeMap
+
+SortedMap Interface
+The SortedMap interface represents a Map whose entries are stored in ascending order of keys.
+It extends the Map interface which in turn is implemented by TreeMap class.
+
+Methods of Collection Interface in Java
+
+1. add(): => add(Object element) : boolean
+
+=> used to add or insert an element in the collection.
+=> If the element is added to the collection, it will return true. Otherwise, returns false,
+   if the element is already present
+=> the collection doesn’t allow duplicates.
+
+2. addAll(): => addAll(Collection c) : boolean
+
+This method adds a collection of elements to the collection.
+
+3. clear(): => clear() : void
+
+The clear() method clears or removes all the elements from the collection.
+
+4. contains(): => contains(Object element) : boolean
+
+The contains() method checks that element is present or not in a collection
+
+5. containsAll(): =>  containsAll(Collection c) : boolean
+
+The containsAll() method checks that specified a collection of elements are present or not.
+
+6. equals(): => equals(Object element) : boolean
+
+The equals() method checks for equality with another object.
+
+7. hashCode():
+
+The hashCode() method returns the hash code number for the collection.
+Its return type is an integer.
+
+8. isEmpty(): => isEmpty() : boolean
+
+The isEmpty() method returns true if a collection is empty.
+
+9. iterator(): => iterator() : Iterator
+
+This method returns an iterator.
+
+11. removeAll(): => remove(Object element) : boolean
+
+The removeAll() method removes all elements from the collection.
+
+11. removeAll(): => removeAll(Collection c) : boolean
+
+The removeAll() method removes all elements from the collection.
+
+12. retainAll(): => retainAll(Collection c) : boolean
+
+ remove all elements from the collection except the specified collection.
+
+13. size():
+
+ The size() method returns the total number of elements in the collection.
+ Its return type is an integer.
+
+14. toArray(): => toArray() : Object[]
+
+ The toArray() method convert the elements of a collection in the array.
+ The array elements are copies of the collection elements.
+
+15. Object[ ] toArray():
+
+
+most commonly used methods of collection interface include
+add(), remove(), size(), isEmpty(), contains(), and clear().

@@ -1,0 +1,29 @@
+Nested Try Catch Block:
+When a try block is defined within another try, it is called nested try block in Java.
+
+Cases Asspciatd with the Nested Try Block:
+
+try // Outer try block
+{
+  statements 1;
+  statements 2;
+try // Inner try block
+{
+  statements 3;
+  statements 4;
+}
+catch(Exception1 e1) // Inner catch block
+{
+  statements 5;
+  statements 6;
+ }
+}
+catch(Exception2 e2) // Outer catch block
+{
+  statements 7;
+  statements 8;
+}
+
+Case 1: if a Exception is occured in a outer try block then control of execution it transferred to the outer catch block.
+
+Case 2: If No exception Occured inside the outer try blcok 
