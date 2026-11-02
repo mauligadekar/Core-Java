@@ -1,0 +1,51 @@
+Throw Keywords :
+Purpose : To handover our crreated exception object to the JVM Manually
+
+used to throw a built-in exception or a custom exception explicitly or manually.
+
+we can throw either checked or unchecked exceptions.
+
+Key Points of Throw Keyword
+=>  we use throw keyword to throw a single exception explicitly. It is followed by an instance variable.
+
+=> We use keyword throw inside the body of method or constructor to invoke the exception. not for classs and interfaces
+
+=> With the help of throw keyword, we cannot throw more than one exception at a time.
+
+=> Programmer will throw the exception object and JVM will catch that exception.
+
+========= Rethrowing an Exception in Java =========
+
+What is Throws:
+Purpose : To Delegate the responsibility of exception handling to the caller and
+          caller is responsible to handle the exception.
+
+Throws keyword is used in case of checked exception only
+because if we are not handling runtime exceptions (unchecked), Java compiler does not give any error related to runtime exceptions.
+If an error occurs, we are unable to do anything.
+
+=> we can use throws keywords sonly for throwable types.
+
+=> Throws is followed by the exception class name.
+=> With throws clause, we can declare more than one exception.
+
+
+two ways to handle the exception in Java:
+
+=>  try-catch block
+=>  using throws keyword
+
+Difference between Throw and Throws in Java:
+
+=> The throw is used to throw an exception explicitly,
+=> throws clause is used to declare an exception.
+
+=> Throw is followed by an instance variable,
+=> while throws is followed by the name of exception class.
+
+=> We use throw keyword inside method body to call an exception,
+=> throws clause is used in method signature.
+
+=> With throw keyword, we cannot throw more than one exception at a time,
+=> we can declare multiple exceptions with throws.
+

@@ -90,6 +90,18 @@ Unexpected error/event occurs => An exception is thrown   => JVM searches for an
  helps to separate “error-handling code” from “regular code”.
 
 
+========= Top 10 Exception ==============
+1. ArrayIndexOutOutOdBoudExcepection => unchecked
+2. NullPointerException              => unchecked
+3. StackVocerflowException         =>  unchecked => VirtualMachin => Error => Throwable
+4. ClasscastException              => Unchecked => RuntimeEx => Exception => Throwable
+5. NoClassDefFoundError          => Unchecked => LinkegError => Error => Throwable (.class file is not available)
+6. ExceptionInInitializerError   => unchecked => linkageError => Error
+7. IllegalArgumentException    =>  RuntimeEx => Exception
+8. NumberFormatException      => IllegalArgumentException =>  RuntimeEx => Exception
+9. IllegalStateException
+10. AssertionError
+
 
 
 

@@ -5,49 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a314a63-3ce3-4344-9072-7d150deafdb6" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/ArrayListPractice/Example_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/ArrayListPractice/Example_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/ArrayListPractice/Example_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/ArrayListPractice/Example_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/UserDefinedClassObject/AddingData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/UserDefinedClassObject/RetriveStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/UserDefinedClassObject/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/LinkedList/IterareUsingIterator2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/LinkedList/IterateUsingAdvanceForLoop1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/LinkedList/LinkedListMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/LinkedList/TraveseUsingListIterator3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/SetInterface/IterateSetUsingIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/SetInterface/IterateUsingEnhanancedForLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/SetInterface/IterateUsingStreamAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/SetInterface/RemoveDuringIteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/SetInterface/SetMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/SetInterface/UsingForEachLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Finally5/FinallyExample_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Finally5/FinallyExample_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Finally5/FinallyExample_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Finally5/FinallyExample_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Finally5/FinallyExample_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Finally5/FinallyExample_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Finally5/FinallyExample_7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Finally5/FinallyNotExecute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Finally5/ReturnStatementEx_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Finally5/ReturnStatementEx_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/CustomOrUserDefinedException6/Custom Or User Defined Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/CustomOrUserDefinedException6/UserDefinedException1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/CustomOrUserDefinedException6/UserDefinedException2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/CustomOrUserDefinedException6/UserDefinedException3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/ThrowVSThrows5/ThrowExample_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/ThrowVSThrows5/ThrowExample_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/ThrowVSThrows5/ThrowException_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/ThrowVSThrows5/ThrowsExample_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/ThrowVSThrows5/ThrowsExample_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/ThrowVSThrows5/ThrowsExample_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/ThrowVSThrows5/ThrowsExample_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Top10Exceoption/ArrayIndexOutOfBoundException1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Top10Exceoption/AssertionError10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Top10Exceoption/ClassCastException4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Top10Exceoption/ExceptionInInitializerError6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Top10Exceoption/IllegalArgumentException7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Top10Exceoption/IllegalStateException9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Top10Exceoption/NoClassDefFoundError5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Top10Exceoption/NullPointerException2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Top10Exceoption/NumberFormatException8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Top10Exceoption/StackOverFlowErrorException3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Core Java/CollectionFrameWork/ListInterface/ArrayList/ArrayList Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Core Java/CollectionFrameWork/ListInterface/ArrayList/ArrayList Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Core Java/CollectionFrameWork/ListInterface/ArrayList/ArrayListExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Core Java/CollectionFrameWork/ListInterface/ArrayList/ArrayListExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Core Java/CollectionFrameWork/ListInterface/LinkedList/LinkedList Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Core Java/CollectionFrameWork/ListInterface/LinkedList/LinkedList Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Core Java/CollectionFrameWork/ListInterface/List Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Core Java/CollectionFrameWork/ListInterface/List Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Core Java/CollectionFrameWork/ListInterface/Vector/Notes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Core Java/CollectionFrameWork/MapInterface/Map Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Core Java/CollectionFrameWork/MapInterface/Map Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Core Java/CollectionFrameWork/SetInterface/Set Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Core Java/CollectionFrameWork/SetInterface/Set Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/ArrayList Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/ArrayList Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/ArrayList/ArrayListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/LinkedList/LinkedList Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/LinkedList/LinkedList Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/List Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/List Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFrameWork/ListInterface/Vector/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionHandling/ThrowVSThrows5/Throw and Throws Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFrameWork/MapInterface/Map Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameWork/MapInterface/Map Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFrameWork/SetInterface/Set Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameWork/SetInterface/Set Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Core Java/ExceptionHandling/ExceptionHandling Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Core Java/ExceptionHandling/ExceptionHandling Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Core Java/ExceptionHandling/TryCatchBlock2/Try Catch Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Core Java/ExceptionHandling/TryCatchBlock2/Try Catch Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionHandling/ExceptionHandling Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionHandling/ExceptionHandling Notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ExceptionHandling/Finally5/Finally Noes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionHandling/Finally5/Finally Noes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionHandling/ThrowVSThrows5/Throw and Throws Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionHandling/ThrowVSThrows5/Throw and Throws Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionHandling/TryCatchBlock2/Try Catch Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionHandling/TryCatchBlock2/Try Catch Notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,61 +72,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="5.423713412454627E-10" />
-      <entry key="MS500" value="0.01403941334509728" />
-      <entry key="S2" value="0.40718962751296683" />
-      <entry key="S5" value="0.9837265242986893" />
-      <entry key="S10" value="1.3832579576894186" />
-      <entry key="S30" value="1.7630904035899406" />
-      <entry key="S60" value="1.8770627285552905" />
-      <entry key="M2" value="1.9375252334965516" />
-      <entry key="M5" value="2.005148227820433" />
-      <entry key="M10" value="2.16191577535381" />
-      <entry key="M15" value="2.305155990251949" />
-      <entry key="M30" value="2.635918174592427" />
-      <entry key="H1" value="3.6894525747710474" />
-      <entry key="H2" value="7.7213033453472395" />
-      <entry key="H4" value="16.326091937815324" />
-      <entry key="D1" value="41.22318823674331" />
-      <entry key="W1" value="50.24501931690572" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="1.6742585241512101E-193" />
+      <entry key="S10" value="4.0917704287401196E-97" />
+      <entry key="S30" value="7.42398501242797E-33" />
+      <entry key="S60" value="8.616254994153763E-17" />
+      <entry key="M2" value="9.282378463962818E-9" />
+      <entry key="M5" value="6.125213695330697E-4" />
+      <entry key="M10" value="0.025241280454537423" />
+      <entry key="M15" value="0.09400116872360904" />
+      <entry key="M30" value="0.4726992170887986" />
+      <entry key="H1" value="1.548370761433827" />
+      <entry key="H2" value="3.997961128726219" />
+      <entry key="H4" value="9.99502413351484" />
+      <entry key="D1" value="42.07711086802056" />
+      <entry key="W1" value="58.53570216901931" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0006371943338386" />
-      <entry key="S2" value="1.1686993781516608" />
-      <entry key="S5" value="1.6364465324996895" />
-      <entry key="S10" value="2.0908819288367564" />
-      <entry key="S30" value="2.8878316000865745" />
-      <entry key="S60" value="3.8548001615503744" />
-      <entry key="M2" value="5.625484998983248" />
-      <entry key="M5" value="9.609063620661164" />
-      <entry key="M10" value="13.564991987368678" />
-      <entry key="M15" value="16.064373453903123" />
-      <entry key="M30" value="21.153215091673435" />
-      <entry key="H1" value="29.848212900566228" />
-      <entry key="H2" value="44.82603133880339" />
-      <entry key="H4" value="71.37393265779716" />
-      <entry key="D1" value="190.12072871480876" />
-      <entry key="W1" value="245.64575591730807" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000000016" />
+      <entry key="S10" value="1.000000057188445" />
+      <entry key="S30" value="1.0097444514923488" />
+      <entry key="S60" value="1.2228994485576954" />
+      <entry key="M2" value="2.193003456116037" />
+      <entry key="M5" value="5.110289063056317" />
+      <entry key="M10" value="8.669485443381987" />
+      <entry key="M15" value="11.722236028769268" />
+      <entry key="M30" value="20.670267990499323" />
+      <entry key="H1" value="36.159420711310375" />
+      <entry key="H2" value="59.2014997007362" />
+      <entry key="H4" value="94.76081384448567" />
+      <entry key="D1" value="256.4993847439755" />
+      <entry key="W1" value="348.8126646158066" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.024860515303854826" />
-      <entry key="MS500" value="0.4893089572157855" />
-      <entry key="S2" value="1.334990779801317" />
-      <entry key="S5" value="2.4243951892845215" />
-      <entry key="S10" value="3.3306267808687475" />
-      <entry key="S30" value="4.584413067790832" />
-      <entry key="S60" value="5.692743442836433" />
-      <entry key="M2" value="7.539139466361053" />
-      <entry key="M5" value="11.600542950688418" />
-      <entry key="M10" value="15.717570482461804" />
-      <entry key="M15" value="18.362098480823295" />
-      <entry key="M30" value="23.783982460983772" />
-      <entry key="H1" value="33.5336313478932" />
-      <entry key="H2" value="52.543991573306194" />
-      <entry key="H4" value="87.69709151950084" />
-      <entry key="D1" value="231.3423898263583" />
-      <entry key="W1" value="295.8904852534898" />
+      <entry key="MS100" value="0.15932007841490778" />
+      <entry key="MS500" value="0.6925547340554623" />
+      <entry key="S2" value="0.9122492722449959" />
+      <entry key="S5" value="0.9639298077406446" />
+      <entry key="S10" value="0.9817993261566228" />
+      <entry key="S30" value="1.0035269273132679" />
+      <entry key="S60" value="1.2184850708290156" />
+      <entry key="M2" value="2.1876171379362215" />
+      <entry key="M5" value="5.104199032683828" />
+      <entry key="M10" value="8.688455942753171" />
+      <entry key="M15" value="11.810467426520143" />
+      <entry key="M30" value="21.137665161524687" />
+      <entry key="H1" value="37.702787324160056" />
+      <entry key="H2" value="63.19505746716975" />
+      <entry key="H4" value="104.75211461885947" />
+      <entry key="D1" value="298.57457297081606" />
+      <entry key="W1" value="407.34797897669233" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -159,15 +144,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.ArrayIndexOutOfBoundException1.executor": "Run",
     "Application.ArrayListExample.executor": "Run",
     "Application.ArrayListMethods.executor": "Run",
+    "Application.AssertionError10.executor": "Run",
     "Application.CheckedException_1.executor": "Run",
+    "Application.ClassCastException4.executor": "Run",
     "Application.CollectionFrameWork.ListInterface.ArrayList.UserDefinedClassObject.Example_1.executor": "Run",
     "Application.CopyOnWriteArrayListClass.executor": "Run",
     "Application.Example_1.executor": "Run",
     "Application.Example_2.executor": "Run",
     "Application.Example_3.executor": "Run",
     "Application.Example_4.executor": "Run",
+    "Application.ExceptionInInitializerError6.executor": "Run",
     "Application.FinallyExample_1.executor": "Run",
     "Application.FinallyExample_2.executor": "Run",
     "Application.FinallyExample_3.executor": "Run",
@@ -176,6 +165,8 @@
     "Application.FinallyExample_6.executor": "Run",
     "Application.FinallyExample_7.executor": "Run",
     "Application.FinallyNotExecute.executor": "Run",
+    "Application.IllegalArgumentException7.executor": "Run",
+    "Application.IllegalStateException9.executor": "Run",
     "Application.IterareUsingIterator2.executor": "Run",
     "Application.IterateSetUsingIterator.executor": "Run",
     "Application.IterateUsingAdvanceForLoop1.executor": "Run",
@@ -194,12 +185,24 @@
     "Application.MultiCatchExample_2.executor": "Run",
     "Application.NestedExample_2.executor": "Run",
     "Application.NestedTryExample_1.executor": "Run",
+    "Application.NoClassDefFoundError5.executor": "Run",
+    "Application.NoClassDefFoundExcepiton5.executor": "Run",
+    "Application.NullPointerException2.executor": "Run",
+    "Application.NumberFormatException8.executor": "Run",
     "Application.RemoveDuringIteration.executor": "Run",
     "Application.RetriveStudent.executor": "Run",
     "Application.ReturnStatementEx_1.executor": "Run",
     "Application.ReturnStatementEx_2.executor": "Run",
     "Application.SetMethods.executor": "Run",
+    "Application.StackOverFlowErrorException3.executor": "Run",
     "Application.SynchronizedArraylist.executor": "Run",
+    "Application.ThrowExample_1.executor": "Run",
+    "Application.ThrowExample_2.executor": "Run",
+    "Application.ThrowException_3.executor": "Run",
+    "Application.ThrowsExample_1.executor": "Run",
+    "Application.ThrowsExample_2.executor": "Run",
+    "Application.ThrowsExample_3.executor": "Run",
+    "Application.ThrowsExample_4.executor": "Run",
     "Application.TraveseUsingListIterator3.executor": "Run",
     "Application.TryCatchBlockExample_1.executor": "Run",
     "Application.TryCatchExample_2.executor": "Run",
@@ -210,6 +213,16 @@
     "Application.TrycatchExample_7.executor": "Run",
     "Application.UncheckedExceprion_1.executor": "Run",
     "Application.UncheckedExceprion_2.executor": "Run",
+    "Application.UserDefinedException1 (1).executor": "Run",
+    "Application.UserDefinedException1 (2).executor": "Run",
+    "Application.UserDefinedException1 (3).executor": "Run",
+    "Application.UserDefinedException1 (4).executor": "Run",
+    "Application.UserDefinedException1 (5).executor": "Run",
+    "Application.UserDefinedException1.executor": "Debug",
+    "Application.UserDefinedException2 (1).executor": "Run",
+    "Application.UserDefinedException2 (2).executor": "Run",
+    "Application.UserDefinedException2.executor": "Run",
+    "Application.UserDefinedException3.executor": "Run",
     "Application.UsingForEachLoop.executor": "Run",
     "Application.UsingPipeOperator_1.executor": "Run",
     "Application.UsingStackTraceMethod_1.executor": "Run",
@@ -240,13 +253,13 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IterateUsingStreamAPI">
-    <configuration name="IterateSetUsingIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFrameWork.SetInterface.IterateSetUsingIterator" />
+  <component name="RunManager" selected="Application.AssertionError10">
+    <configuration name="AssertionError10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Top10Exceoption.AssertionError10" />
       <module name="Core Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionFrameWork.SetInterface.*" />
+          <option name="PATTERN" value="ExceptionHandling.Top10Exceoption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,12 +267,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IterateUsingEnhanancedForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFrameWork.SetInterface.IterateUsingEnhanancedForLoop" />
+    <configuration name="ExceptionInInitializerError6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Top10Exceoption.ExceptionInInitializerError6" />
       <module name="Core Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionFrameWork.SetInterface.*" />
+          <option name="PATTERN" value="ExceptionHandling.Top10Exceoption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,12 +280,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IterateUsingStreamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFrameWork.SetInterface.IterateUsingStreamAPI" />
+    <configuration name="IllegalArgumentException7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Top10Exceoption.IllegalArgumentException7" />
       <module name="Core Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionFrameWork.SetInterface.*" />
+          <option name="PATTERN" value="ExceptionHandling.Top10Exceoption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,12 +293,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuringIteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFrameWork.SetInterface.RemoveDuringIteration" />
+    <configuration name="IllegalStateException9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Top10Exceoption.IllegalStateException9" />
       <module name="Core Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionFrameWork.SetInterface.*" />
+          <option name="PATTERN" value="ExceptionHandling.Top10Exceoption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,12 +306,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsingForEachLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFrameWork.SetInterface.UsingForEachLoop" />
+    <configuration name="NumberFormatException8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Top10Exceoption.NumberFormatException8" />
       <module name="Core Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionFrameWork.SetInterface.*" />
+          <option name="PATTERN" value="ExceptionHandling.Top10Exceoption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,19 +387,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.IterateSetUsingIterator" />
-      <item itemvalue="Application.IterateUsingEnhanancedForLoop" />
-      <item itemvalue="Application.IterateUsingStreamAPI" />
-      <item itemvalue="Application.RemoveDuringIteration" />
-      <item itemvalue="Application.UsingForEachLoop" />
+      <item itemvalue="Application.AssertionError10" />
+      <item itemvalue="Application.ExceptionInInitializerError6" />
+      <item itemvalue="Application.IllegalArgumentException7" />
+      <item itemvalue="Application.IllegalStateException9" />
+      <item itemvalue="Application.NumberFormatException8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IterateUsingStreamAPI" />
-        <item itemvalue="Application.UsingForEachLoop" />
-        <item itemvalue="Application.IterateUsingEnhanancedForLoop" />
-        <item itemvalue="Application.RemoveDuringIteration" />
-        <item itemvalue="Application.IterateSetUsingIterator" />
+        <item itemvalue="Application.AssertionError10" />
+        <item itemvalue="Application.IllegalStateException9" />
+        <item itemvalue="Application.NumberFormatException8" />
+        <item itemvalue="Application.IllegalArgumentException7" />
+        <item itemvalue="Application.ExceptionInInitializerError6" />
       </list>
     </recent_temporary>
   </component>

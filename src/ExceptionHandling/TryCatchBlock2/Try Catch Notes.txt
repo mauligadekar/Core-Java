@@ -67,7 +67,7 @@ Available inside the Throwable class
 Ex. java.lang.ArithmeticException: / by zero
 	at ExceptionHandling.TryCatchBlock2.MethodsPrintExceoptionInfo_1.main(UsingStackTraceMethod_1.java:7)
 
-2.sout(e.toString(); => Exception : Description of Exception the use this
+2.sout(e.toString(); => Exception Name  : Description of Exception the use this
 
  Ex. java.lang.ArithmeticException: / by zero
 

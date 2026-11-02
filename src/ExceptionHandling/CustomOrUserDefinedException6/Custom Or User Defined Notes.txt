@@ -1,0 +1,31 @@
+
+What is Customized or user defined Exception:
+The Exception Which are defined Explicitly by the programmer, to meet the programming requirement are called.
+
+Ex. if balance is 10k and we try to withdraw 20k the we got the InsufficientfundException.
+
+=> throw keywords best suitable for customized exception not for predefined exception
+=> throw keywords handover the our created exception obj to JVM manually
+=> default exception handler is a responsible to prit exception information on the console
+=> printStack trace method is internally used by default exception handler
+
+imp=> purpose of super(str) - to make our description availabe to the default exception handler
+
+=> why exteds runtimeEx - to make our exception as unchecked exception
+
+we are not handling the exception, we are indicating that something goes worng
+
+How to Create Your Own User-defined Exception in Java?
+Step 1: User-defined exceptions can be created simply by extending the Exception class.
+        class OwnException extends Exception
+
+step 2: if we dont want to store exception details define a default constructor.
+
+Step 3: If we want to store exception details, define a parameterized constructor with string as a parameter,
+        OwnException(String str)
+        {
+          super(str); // Call superclass exception constructor and store variable "str" in it.
+        }
+
+Step 4: we need to create an object of the user-defined exception class and throw it using throw clause.
+        throw new OwnException("Exception details");

@@ -40,3 +40,30 @@ clean-up code
 }
 
 => finally block get the more priority that the retunr statement
+
+=========== Difference Between Final vs Finally and Finalize ========
+Final:
+
+Final is a Access Modifiers Applicable for classes , method and variable
+final class => we cannot extends
+final method => we cannnot override
+final variable => we cannot chenged its values
+
+Finally :
+
+it is block of code associated with the try catch.
+inside the finally we cna take cleanup code or resource deallocation code
+main purpose to maintian the cleanup code.
+always executed whether exception occcured or not.
+
+Finalize :
+
+it is a method associated with the garbage collector.
+GC will calll this method just before destroying the object.
+purpose to perform the cleanup Activity.
+
+what is cleanup in finally and finalize :
+finally => to close the resource opend in the try block
+
+finalize => to perform object related cleanup we should use finalize
+
